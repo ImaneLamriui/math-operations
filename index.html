@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Operaciones matemáticas</title>
-    <script src="js/Tablas.js"></script>     
-  </head>
-      <style>
-   h1, label{
-       color:black;
-        font-size:xx-large;
-        font-family: 'Times New Roman', Times, serif;
-     }
 
-    h1{border-style:groove;
-        border-color:darkgreen;
-        text-align: center;
-    background-color:darkgray;}
-    
-    .form{text-align: justify};
-      </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Operaciones matemáticas</title>
+  <script src="js/Tablas.js"></script>
+</head>
+<style>
+  h1,
+  label {
+    color: black;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
 
-  <body>
+  h1 {
+    border-style: groove;
+    border-color: darkgreen;
+    text-align: center;
+    background-color: darkgray;
+  }
 
-     <div class="form">
-        <h1> Tabla de multiplicación de 7,tabla de suma de 8, tabla de división de 9.<br>
-          desplazamiento binario de : 125,25(a la derecha)<br>
-          desplazamiento binario de : 40,10(a la izquierda) </h1>
-        <form onsubmit="mostrartablasydesplazamietosbinarios()">
-            <label for="numero">Introduce el número:</label>
-            <input id="numero" type="number"  required/>
-            <input type="submit" value="Mostrar tabla" />
-        </form> 
-        <div id="tabla"></div>
-        
-        <div id="Desplazamientobinario">
-         
-        </div>
-     </div>
-  </body> 
+  .form {
+    text-align: justify;
+  }
+
+  
+</style>
+
+<body>
+
+  <div class="form">
+    <h1> Tabla de multiplicación de 7,tabla de suma de 8, tabla de división de 9.<br>
+      desplazamiento binario de : 125,25(a la derecha)<br>
+      desplazamiento binario de : 40,10(a la izquierda) </h1>
+    <form onsubmit="mostrartablasydesplazamietosbinarios()">
+      <label for="numero">Introduce el número:</label>
+      <input id="numero" type="number" required />
+      <input type="submit" value="Mostrar tabla" />
+    </form>
+    <div id="tabla"></div>
+
+    <div id="Desplazamientobinario">
+
+    </div>
+  </div>
+</body>
+
 </html>
